@@ -35,6 +35,7 @@ export const removeUnreadMarkFactory = apiFactory<RemoveUnreadMarkResponse>()((a
                     },
                 ],
                 [isGroup ? "convsUserData" : "convsGroupData"]: [],
+                imei: ctx.imei,
             }),
         };
 
